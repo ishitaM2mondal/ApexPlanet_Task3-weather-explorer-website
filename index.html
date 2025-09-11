@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌥️ Weather Explorer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ===== Header ===== -->
+    <header>
+        <h1>🌥️ Weather Explorer</h1>
+        <p>Discover, predict, and explore the world of weather</p>
+    </header>
+
+    <!-- ===== Carousel ===== -->
+    <div class="carousel">
+        <div class="track">
+            <img src="./images/storm.webp" alt="Storm Weather">
+            <img src="./images/sunny.jpg" alt="Sunny Sky">
+            <img src="./images/rainy.jpg" alt="Rainy Weather">
+            <img src="./images/snow.jpg" alt="Snow Weather">
+            <img src="./images/cloudy.jpg" alt="Cloudy Sky">
+        </div>
+        <button class="control prev">&#10094;</button>
+        <button class="control next">&#10095;</button>
+        <div class="dots"></div>
+    </div>
+
+
+    <!-- ===== Weather Quiz ===== -->
+    <section class="quiz-section">
+        <h2>🌦️ Weather Quiz</h2>
+        <p id="quiz-progress"></p>
+        <div id="quiz-container"></div>
+        <button id="next-btn">Next Question</button>
+        <div id="quiz-result"></div>
+    </section>
+
+    <!-- ===== Live Weather API ===== -->
+    <section class="api-section">
+        <h2>🌍 Check Live Weather</h2>
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button id="get-weather">Get Weather</button>
+        <div id="weather-result"></div>
+    </section>
+
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>&copy; <span id="year"></span> Weather Explorer </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
