@@ -3,7 +3,7 @@
 This project is a **weather-themed interactive website** built using **HTML, CSS, and JavaScript**.  
 It demonstrates how to integrate a weather API, create a responsive layout, and build interactive UI components with DOM manipulation.  
 
----
+
 
 ## 📌 Tasks Overview  
 
@@ -16,7 +16,6 @@ It demonstrates how to integrate a weather API, create a responsive layout, and 
 
 📂 Folder: `Task3/`  
 
----
 
 ## 🛠️ Technologies Used  
 - **HTML5** → Semantic structure  
@@ -26,7 +25,7 @@ It demonstrates how to integrate a weather API, create a responsive layout, and 
   - Event Handling  
   - API Fetch (Weather API)  
 
----
+
 
 ## 📂 Project Structure 
 
@@ -47,10 +46,7 @@ WeatherExplorer/
 ```
 
 
----
 
-
----
 
 ## 🎯 Learning Outcomes  
 
@@ -60,7 +56,7 @@ WeatherExplorer/
 - Improved skills in **JavaScript event handling, DOM manipulation, and error handling**.  
 - Strengthened ability to **organize project structure** for scalability.  
 
----
+
 
 ## 🙏 Acknowledgement  
 
